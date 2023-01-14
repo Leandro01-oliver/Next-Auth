@@ -1,5 +1,4 @@
 
-import { Button } from "@chakra-ui/react";
 import HomeComponent from "../components/Home";
 
 const Home = () => {
