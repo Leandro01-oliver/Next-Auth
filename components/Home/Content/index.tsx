@@ -1,7 +1,9 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Button } from "@chakra-ui/react";
+import { generetKey } from "../../../utils/gerenciaNet/key";
 
 
 const Content = () =>{
+
     return(
         <>
           <Box
@@ -10,6 +12,14 @@ const Content = () =>{
           p={'2rem'}
           >
              Conteúdo da página
+
+             <Button
+             onClick={()=>{
+              generetKey()
+             }}
+             >
+               Gerar Chave
+             </Button>
           </Box>
         </>
     )
